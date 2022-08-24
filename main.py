@@ -29,6 +29,22 @@ def login():
     dr = {'BASE_URL' : BASE_URL}
     return render_template('login.html', dRes=dr)
 
+@app.route('/proses-login', methods=('GET', 'POST'))
+def proses_login():
+    # {'username':username, 'password':password}
+    username = request.form['username']
+    password = request.form['password']
+
+    dataUser = getUserJson()
+
+    if username == dataUser['username'] and password == dataUser['password']:
+        sLogin = 'sukses'
+    else:
+        sLogin = 'gagal'
+
+    dr = {'status' : sLogin}
+    return jsonify(dr)
+
 @app.route('/data-siswa')
 def data_siswa():
     dr = {'BASE_URL' : BASE_URL}
@@ -727,6 +743,12 @@ def proses_prediksi():
 
     return render_template('hasil-prediksi.html', status=status)
 
+def getUserJson():
+    with open('login_user.json', 'r') as openfile:
+        # Reading from json file
+        json_object = json.load(openfile)
+    
+    return json_object
 
 def cekLogin():
     with open('auth_status.json', 'r') as openfile:

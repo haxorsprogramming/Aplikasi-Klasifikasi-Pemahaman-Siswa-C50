@@ -14,11 +14,32 @@
                     <input class="form-control" type="password" id="txtPassword" placeholder="Password">
                 </div>
                 <div class="mt-3">
-                    <a id='btnMasuk' v-on:click='klikSaya' class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="#!">Masuk</a>
+                    <a id="btnLogin" onclick="loginAtc()" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="javascript:void(0)">Masuk</a>
                 </div>
                 
             </div>
         </div>
-        </div>  
+    </div>  
 </div>
+<script>
+
+var rLogin = "{{ BASE_URL }}/proses-login";
+
+function loginAtc()
+{
+    let username = document.querySelector("#txtUsername").value;
+    let password = document.querySelector("#txtPassword").value;
+
+    if(username.length < 2 || password.length < 2){
+        window.alert("Harap lengkapi form .. !!");
+    }else{
+        let dr = {'username':username, 'password':password}
+        $.post(rLogin, dr, function(data){
+            console.log(data);
+        });
+    }
+
+}
+
+</script>
 {% endblock contents %}
