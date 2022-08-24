@@ -1,0 +1,43 @@
+<h5>Tugas</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Baik</td>
+      <td>{{ tugas.baik.tinggi }}</td>
+      <td>{{ tugas.baik.rendah }}</td>
+      <td>{{ tugas.baik.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cukup</td>
+      <td>{{ tugas.cukup.tinggi }}</td>
+      <td>{{ tugas.cukup.rendah }}</td>
+      <td>{{ tugas.cukup.entropy }}</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sangat Baik</td>
+        <td>{{ tugas.sangat_baik.tinggi }}</td>
+        <td>{{ tugas.sangat_baik.rendah }}</td>
+        <td>{{ tugas.sangat_baik.entropy }}</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Kurang</td>
+        <td>{{ tugas.kurang.tinggi }}</td>
+        <td>{{ tugas.kurang.rendah }}</td>
+        <td>{{ tugas.kurang.entropy }}</td>
+      </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ tugas.gain }}</strong>

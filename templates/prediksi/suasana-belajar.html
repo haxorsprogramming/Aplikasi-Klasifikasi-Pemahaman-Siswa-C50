@@ -1,0 +1,29 @@
+<h5>Suasana Belajar</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>PDF</td>
+      <td>{{ suasanaBelajar.mendukung.tinggi }}</td>
+      <td>{{ suasanaBelajar.mendukung.rendah }}</td>
+      <td>{{ suasanaBelajar.mendukung.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Video</td>
+      <td>{{ suasanaBelajar.tidak_mendukung.tinggi }}</td>
+      <td>{{ suasanaBelajar.tidak_mendukung.rendah }}</td>
+      <td>{{ suasanaBelajar.tidak_mendukung.entropy }}</td>
+    </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ suasanaBelajar.gain }}</strong>

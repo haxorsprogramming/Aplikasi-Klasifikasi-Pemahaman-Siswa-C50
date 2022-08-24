@@ -1,0 +1,43 @@
+<h5>Bahasa Indonesia</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Baik</td>
+      <td>{{ bindo.baik.tinggi }}</td>
+      <td>{{ bindo.baik.rendah }}</td>
+      <td>{{ bindo.baik.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cukup</td>
+      <td>{{ bindo.cukup.tinggi }}</td>
+      <td>{{ bindo.cukup.rendah }}</td>
+      <td>{{ bindo.cukup.entropy }}</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sangat Baik</td>
+        <td>{{ bindo.sangat_baik.tinggi }}</td>
+        <td>{{ bindo.sangat_baik.rendah }}</td>
+        <td>{{ bindo.sangat_baik.entropy }}</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Kurang</td>
+        <td>{{ bindo.kurang.tinggi }}</td>
+        <td>{{ bindo.kurang.rendah }}</td>
+        <td>{{ bindo.kurang.entropy }}</td>
+      </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ bindo.gain }}</strong>

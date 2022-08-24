@@ -1,0 +1,146 @@
+|--- praktikum <= 2.50
+|   |--- penyampaian_materi <= 3.00
+|   |   |--- matematika <= 3.50
+|   |   |   |--- bing <= 1.50
+|   |   |   |   |--- uts <= 2.50
+|   |   |   |   |   |--- class: Rendah
+|   |   |   |   |--- uts >  2.50
+|   |   |   |   |   |--- class: Tinggi
+|   |   |   |--- bing >  1.50
+|   |   |   |   |--- bindo <= 1.50
+|   |   |   |   |   |--- praktikum <= 1.50
+|   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |--- praktikum >  1.50
+|   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |--- bindo >  1.50
+|   |   |   |   |   |--- bindo <= 3.50
+|   |   |   |   |   |   |--- uts <= 1.50
+|   |   |   |   |   |   |   |--- tugas <= 2.50
+|   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |   |--- tugas >  2.50
+|   |   |   |   |   |   |   |   |--- praktikum <= 1.50
+|   |   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |   |   |--- praktikum >  1.50
+|   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |--- uts >  1.50
+|   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |--- bindo >  3.50
+|   |   |   |   |   |   |--- penyampaian_materi <= 1.50
+|   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |--- penyampaian_materi >  1.50
+|   |   |   |   |   |   |   |--- kehadiran <= 3.50
+|   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |--- kehadiran >  3.50
+|   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |--- matematika >  3.50
+|   |   |   |--- praktikum <= 1.50
+|   |   |   |   |--- class: Rendah
+|   |   |   |--- praktikum >  1.50
+|   |   |   |   |--- class: Tinggi
+|   |--- penyampaian_materi >  3.00
+|   |   |--- matematika <= 2.50
+|   |   |   |--- class: Rendah
+|   |   |--- matematika >  2.50
+|   |   |   |--- bing <= 2.50
+|   |   |   |   |--- class: Tinggi
+|   |   |   |--- bing >  2.50
+|   |   |   |   |--- tugas <= 2.50
+|   |   |   |   |   |--- class: Rendah
+|   |   |   |   |--- tugas >  2.50
+|   |   |   |   |   |--- uas <= 2.50
+|   |   |   |   |   |   |--- bing <= 3.50
+|   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |--- bing >  3.50
+|   |   |   |   |   |   |   |--- uas <= 1.50
+|   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |--- uas >  1.50
+|   |   |   |   |   |   |   |   |--- media_pembelajaran <= 2.50
+|   |   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |   |   |--- media_pembelajaran >  2.50
+|   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |--- uas >  2.50
+|   |   |   |   |   |   |--- praktikum <= 1.50
+|   |   |   |   |   |   |   |--- media_pembelajaran <= 2.00
+|   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |--- media_pembelajaran >  2.00
+|   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |--- praktikum >  1.50
+|   |   |   |   |   |   |   |--- uts <= 3.50
+|   |   |   |   |   |   |   |   |--- suasana_belajar <= 2.50
+|   |   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |   |   |--- suasana_belajar >  2.50
+|   |   |   |   |   |   |   |   |   |--- media_pembelajaran <= 1.50
+|   |   |   |   |   |   |   |   |   |   |--- bindo <= 3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- bindo >  3.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |   |   |--- media_pembelajaran >  1.50
+|   |   |   |   |   |   |   |   |   |   |--- media_pembelajaran <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- media_pembelajaran >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |--- uts >  3.50
+|   |   |   |   |   |   |   |   |--- tugas <= 3.50
+|   |   |   |   |   |   |   |   |   |--- matematika <= 3.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |   |   |   |--- matematika >  3.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |   |   |--- tugas >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: Rendah
+|--- praktikum >  2.50
+|   |--- matematika <= 2.50
+|   |   |--- media_pembelajaran <= 3.50
+|   |   |   |--- class: Rendah
+|   |   |--- media_pembelajaran >  3.50
+|   |   |   |--- class: Tinggi
+|   |--- matematika >  2.50
+|   |   |--- bing <= 2.50
+|   |   |   |--- media_pembelajaran <= 2.50
+|   |   |   |   |--- class: Tinggi
+|   |   |   |--- media_pembelajaran >  2.50
+|   |   |   |   |--- kehadiran <= 3.50
+|   |   |   |   |   |--- uas <= 3.50
+|   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |--- uas >  3.50
+|   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |--- kehadiran >  3.50
+|   |   |   |   |   |--- class: Rendah
+|   |   |--- bing >  2.50
+|   |   |   |--- uas <= 1.50
+|   |   |   |   |--- media_pembelajaran <= 2.50
+|   |   |   |   |   |--- penyampaian_materi <= 3.00
+|   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |--- penyampaian_materi >  3.00
+|   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |--- media_pembelajaran >  2.50
+|   |   |   |   |   |--- class: Tinggi
+|   |   |   |--- uas >  1.50
+|   |   |   |   |--- media_pembelajaran <= 2.50
+|   |   |   |   |   |--- media_pembelajaran <= 1.50
+|   |   |   |   |   |   |--- uas <= 2.50
+|   |   |   |   |   |   |   |--- bing <= 3.50
+|   |   |   |   |   |   |   |   |--- matematika <= 3.50
+|   |   |   |   |   |   |   |   |   |--- tugas <= 3.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |   |   |--- tugas >  3.50
+|   |   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |   |--- matematika >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |--- bing >  3.50
+|   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |--- uas >  2.50
+|   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |--- media_pembelajaran >  1.50
+|   |   |   |   |   |   |--- uts <= 3.50
+|   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |--- uts >  3.50
+|   |   |   |   |   |   |   |--- tugas <= 3.50
+|   |   |   |   |   |   |   |   |--- kehadiran <= 3.50
+|   |   |   |   |   |   |   |   |   |--- class: Rendah
+|   |   |   |   |   |   |   |   |--- kehadiran >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |   |   |   |--- tugas >  3.50
+|   |   |   |   |   |   |   |   |--- class: Tinggi
+|   |   |   |   |--- media_pembelajaran >  2.50
+|   |   |   |   |   |--- class: Tinggi
+

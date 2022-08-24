@@ -1,0 +1,43 @@
+<h5>Praktikum</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Baik</td>
+      <td>{{ praktikum.baik.tinggi }}</td>
+      <td>{{ praktikum.baik.rendah }}</td>
+      <td>{{ praktikum.baik.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cukup</td>
+      <td>{{ praktikum.cukup.tinggi }}</td>
+      <td>{{ praktikum.cukup.rendah }}</td>
+      <td>{{ praktikum.cukup.entropy }}</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sangat Baik</td>
+        <td>{{ praktikum.sangat_baik.tinggi }}</td>
+        <td>{{ praktikum.sangat_baik.rendah }}</td>
+        <td>{{ praktikum.sangat_baik.entropy }}</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Kurang</td>
+        <td>{{ praktikum.kurang.tinggi }}</td>
+        <td>{{ praktikum.kurang.rendah }}</td>
+        <td>{{ praktikum.kurang.entropy }}</td>
+      </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ praktikum.gain }}</strong>

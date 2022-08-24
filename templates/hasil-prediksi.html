@@ -1,0 +1,26 @@
+{% extends "layout/base.html" %}
+
+{% block contents %}
+
+<div class="container">
+<div class="row">
+<div style="text-align: center;">
+    <h4>Hasil Prediksi C 5.0</h4>
+    <h2>Tingkat Pemahaman Siswa : {{ status }}</h2>
+    <div style="margin-top: 20px;">
+        <h5>Rule yang dihasilkan</h5>
+        <div class="container" style="margin-top: 30px">
+            <div id="divHasil">
+              <embed
+                src="{{ url_for('static', filename='log.txt') }}"
+                style="width: 700px; height: 1000px"
+              />
+            </div>
+          </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+{% endblock contents %}

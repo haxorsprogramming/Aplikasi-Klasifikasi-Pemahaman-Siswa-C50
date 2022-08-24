@@ -1,0 +1,43 @@
+<h5>UAS</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Baik</td>
+      <td>{{ uas.baik.tinggi }}</td>
+      <td>{{ uas.baik.rendah }}</td>
+      <td>{{ uas.baik.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cukup</td>
+      <td>{{ uas.cukup.tinggi }}</td>
+      <td>{{ uas.cukup.rendah }}</td>
+      <td>{{ uas.cukup.entropy }}</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sangat Baik</td>
+        <td>{{ uas.sangat_baik.tinggi }}</td>
+        <td>{{ uas.sangat_baik.rendah }}</td>
+        <td>{{ uas.sangat_baik.entropy }}</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Kurang</td>
+        <td>{{ uas.kurang.tinggi }}</td>
+        <td>{{ uas.kurang.rendah }}</td>
+        <td>{{ uas.kurang.entropy }}</td>
+      </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ uas.gain }}</strong>

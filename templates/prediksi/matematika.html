@@ -1,0 +1,43 @@
+<h5>Matematika</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Baik</td>
+      <td>{{ matematika.baik.tinggi }}</td>
+      <td>{{ matematika.baik.rendah }}</td>
+      <td>{{ matematika.baik.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cukup</td>
+      <td>{{ matematika.cukup.tinggi }}</td>
+      <td>{{ matematika.cukup.rendah }}</td>
+      <td>{{ matematika.cukup.entropy }}</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sangat Baik</td>
+        <td>{{ matematika.sangat_baik.tinggi }}</td>
+        <td>{{ matematika.sangat_baik.rendah }}</td>
+        <td>{{ matematika.sangat_baik.entropy }}</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Kurang</td>
+        <td>{{ matematika.kurang.tinggi }}</td>
+        <td>{{ matematika.kurang.rendah }}</td>
+        <td>{{ matematika.kurang.entropy }}</td>
+      </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ matematika.gain }}</strong>

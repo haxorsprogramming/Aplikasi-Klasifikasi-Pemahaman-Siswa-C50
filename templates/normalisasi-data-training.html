@@ -1,0 +1,87 @@
+{% extends "layout/base.html" %}
+
+{% block contents %}
+<div class="container" style="margin-top: 30px;">
+   <h4>Data Siswa</h4>
+   <hr/>
+   <div class="row">
+    
+        <table class="table table-bordered" id="tblSiswa" style="font-size: 13px;">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nama Mahasiswa</th>
+                    <th>Kelas</th>
+                    <th>Penyampaian Materi</th>
+                    <th>Media Pembelajaran</th>
+                    <th>Suasana Belajar</th>
+                    <th>Tugas</th>
+                    <th>Kehadiran</th>
+                    <th>Praktikum</th>
+                    <th>UTS</th>
+                    <th>UAS</th>
+                    <th>Matematika</th>
+                    <th>B Indo</th>
+                    <th>B Inggris</th>
+                    <th>Pemahaman</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            {% for siswa in dSiswa %}
+            <tr>
+                <td>{{ siswa.ord }}</td>
+                <td>{{ siswa.nama }}</td>
+                <td>{{ siswa.kelas }}</td>
+                <td>{{ siswa.penyampaian_materi }}</td>
+                <td>{{ siswa.media_pembelajaran }}</td>
+                <td>{{ siswa.suasana_belajar }}</td>
+                <td>{{ siswa.tugas }}</td>
+                <td>{{ siswa.kehadiran }}</td>
+                <td>{{ siswa.praktikum }}</td>
+                <td>{{ siswa.uts }}</td>
+                <td>{{ siswa.uas }}</td>
+                <td>{{ siswa.matematika }}</td>
+                <td>{{ siswa.b_indo }}</td>
+                <td>{{ siswa.b_inggris }}</td>
+                <td>{{ siswa.pemahaman }}</td>
+                
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+   </div>
+   <hr/>
+   <h4>Data Perhitungan Training</h4>
+   {% include "prediksi/penyampaian-materi.html" %}
+   <hr/>
+   {% include "prediksi/media-pembelajaran.html" %}
+   <hr/>
+   {% include "prediksi/suasana-belajar.html" %}
+   <hr/>
+   {% include "prediksi/tugas.html" %}
+   <hr/>
+   {% include "prediksi/kehadiran.html" %}
+   <hr/>
+   {% include "prediksi/praktikum.html" %}
+   <hr/>
+   {% include "prediksi/uts.html" %}
+   <hr/>
+   {% include "prediksi/uas.html" %}
+   <hr/>
+   {% include "prediksi/matematika.html" %}
+   <hr/>
+   {% include "prediksi/bindo.html" %}
+   <hr/>
+   {% include "prediksi/bing.html" %}
+   <hr/>
+   {% include "prediksi/pemahaman.html" %}
+   <hr/>
+   {% include "prediksi/gain.html" %}
+   <hr/>
+</div>
+
+<script>
+    $("#tblSiswa").dataTable();
+</script>
+{% endblock contents %}

@@ -1,0 +1,43 @@
+<h5>Media Pembelajaran</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>PDF</td>
+      <td>{{ mediaPembelajaran.pdf.tinggi }}</td>
+      <td>{{ mediaPembelajaran.pdf.rendah }}</td>
+      <td>{{ mediaPembelajaran.pdf.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Video</td>
+      <td>{{ mediaPembelajaran.video.tinggi }}</td>
+      <td>{{ mediaPembelajaran.video.rendah }}</td>
+      <td>{{ mediaPembelajaran.video.entropy }}</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>PPT</td>
+      <td>{{ mediaPembelajaran.ppt.tinggi }}</td>
+      <td>{{ mediaPembelajaran.ppt.rendah }}</td>
+      <td>{{ mediaPembelajaran.ppt.entropy }}</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>EBOOK</td>
+      <td>{{ mediaPembelajaran.ebook.tinggi }}</td>
+      <td>{{ mediaPembelajaran.ebook.rendah }}</td>
+      <td>{{ mediaPembelajaran.ebook.entropy }}</td>
+    </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ mediaPembelajaran.gain }}</strong>

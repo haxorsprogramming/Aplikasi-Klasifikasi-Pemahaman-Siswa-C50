@@ -1,0 +1,43 @@
+<h5>Penyampaian Materi</h5>
+<table id="tblPemahaman" class="table table-bordered table-hover table-striped" style="width: 100%; font-size: smaller">
+  <thead style="border-top: 1px solid #d0d0d0">
+    <tr>
+      <th>#</th>
+      <th>Sub Kriteria</th>
+      <th>Tinggi</th>
+      <th>Rendah</th>
+      <th>Entropy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Serius Santai</td>
+      <td>{{ penyampaianMateri.serius.tinggi }}</td>
+      <td>{{ penyampaianMateri.serius.rendah }}</td>
+      <td>{{ penyampaianMateri.serius.entropy }}</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Santai</td>
+      <td>{{ penyampaianMateri.santai.tinggi }}</td>
+      <td>{{ penyampaianMateri.santai.rendah }}</td>
+      <td>{{ penyampaianMateri.santai.entropy }}</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Serius</td>
+      <td>{{ penyampaianMateri.serius.tinggi }}</td>
+      <td>{{ penyampaianMateri.serius.rendah }}</td>
+      <td>{{ penyampaianMateri.serius.entropy }}</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Membosankan</td>
+      <td>{{ penyampaianMateri.membosankan.tinggi }}</td>
+      <td>{{ penyampaianMateri.membosankan.rendah }}</td>
+      <td>{{ penyampaianMateri.membosankan.entropy }}</td>
+    </tr>
+  </tbody>
+</table>
+<strong>Gain : {{ penyampaianMateri.gain }}</strong>
