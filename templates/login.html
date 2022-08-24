@@ -24,6 +24,7 @@
 <script>
 
 var rLogin = "{{ BASE_URL }}/proses-login";
+var rSiswa = "{{ BASE_URL }}/data-siswa";
 
 function loginAtc()
 {
@@ -35,7 +36,12 @@ function loginAtc()
     }else{
         let dr = {'username':username, 'password':password}
         $.post(rLogin, dr, function(data){
-            console.log(data);
+            let status = data.status;
+            if(status === "sukses"){
+                window.location.assign(rSiswa);
+            }else{
+                window.alert("Login gagal .. cek data kembali ..");
+            }
         });
     }
 

@@ -17,7 +17,12 @@
               Sistem analisa tingkat pemahaman pembelajaran siswa SMK menggunakan algoritma C.50 & decision tree pada masa covid-19 
           </h4>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            {% if stLogin.stLogin == 'no' %}
             <a href="{{ BASE_URL }}/login" class="btn btn-primary btn-lg px-4 gap-3">Login</a>
+            {% else %}
+            <a href="{{ BASE_URL }}/logout" class="btn btn-warning btn-lg px-4 gap-3">Logout</a>
+            {% endif %}
+            
           </div>
         </div>
       </div>
