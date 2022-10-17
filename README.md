@@ -23,7 +23,7 @@ Instalasi & penggunaan
 - Jalankan aplikasi
 <pre>python main.py</pre>
 
-- Buka browser <code>http://127.0.0.1:5000</pre>
+- Buka browser <code>http://127.0.0.1:5000</code>
 
 Catatan
 
