@@ -1,7 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request, jsonify 
 import pandas as pd
 from sklearn import tree
-import pydotplus
 from sklearn.tree import DecisionTreeClassifier
 import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
@@ -16,7 +15,7 @@ import json
 import os
 app = Flask(__name__)
 
-BASE_URL = "http://192.168.55.12:5000/"
+BASE_URL = "http://127.0.0.1:5000/"
 
 @app.route('/')
 def index():
