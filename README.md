@@ -30,7 +30,7 @@ Catatan
 - Aplikasi ini dibuat untuk kebutuhan riset & pengembangan
 - Aplikasi ini dapat dikembangkan kembali, namun tidak ditujukan untuk kebutuhan komersial, segala kesalahan analisa data, bug, dll tidak menjadi tanggung jawab pengembang awal
 - Jika ada pertanyaan dapat menghubungi email : <code>alditha.forum@gmail.com</code>
-- File dataset tidak di upload, jika membutuhkan file dataset dapat menghubungi email di atas (donasi dibutuhkan untuk apresiasi pengembang)
+- File dataset tidak di upload, jika membutuhkan file dataset dapat menghubungi email di atas
 
 
 Informasi pengembang
