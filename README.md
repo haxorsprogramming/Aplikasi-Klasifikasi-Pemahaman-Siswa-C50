@@ -36,3 +36,4 @@ Catatan
 Informasi pengembang
 
 <code>Khairun Azrianty</code>
+<code>Ilmu Komputer, Fakultas Sains dan Teknologi, Universitas Islam Negeri Sumatera Utara</code>
