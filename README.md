@@ -3,16 +3,16 @@
 Screenshoot 
 
 - Homepage
-<img src="https://s3.jagoanstorage.com/aditia-storage/ScienceProject/Aplikasi-Klasifikasi-Pemahaman-Siswa-C50/ss/homepage.png">
+
 
 - Data siswa 
-<img src="https://s3.jagoanstorage.com/aditia-storage/ScienceProject/Aplikasi-Klasifikasi-Pemahaman-Siswa-C50/ss/data_siswa.png">
+
 
 - Data normalisasi 
-<img src="https://s3.jagoanstorage.com/aditia-storage/ScienceProject/Aplikasi-Klasifikasi-Pemahaman-Siswa-C50/ss/normalisasi_data.png">
+
 
 - Rule hasil 
-<img src="https://s3.jagoanstorage.com/aditia-storage/ScienceProject/Aplikasi-Klasifikasi-Pemahaman-Siswa-C50/ss/prediksi.png">
+
 
 Instalasi & penggunaan
 
@@ -35,5 +35,5 @@ Catatan
 
 Informasi pengembang
 
-<code>Khairun Azrianty</code>
+<code>Khairun Azrianty</code><br/>
 <code>Ilmu Komputer, Fakultas Sains dan Teknologi, Universitas Islam Negeri Sumatera Utara</code>
